@@ -28,5 +28,8 @@ Please be aware we have only implemented Firebase in web form, meaning we may no
 
 Also be aware that if you want to add Firebase integration to your project and you are not developing some sort of website, you will likely need to contact us so we can add extra settings to our firebase console to make your project usable with google firebase.
 
+# Finally...
+Please do not hesitate to contact us! If you want to implement reading our database into your project it is highly likely we would need to collaborate together to get it to work!
+
 # Official Google Tutorial
 Link: https://firebase.google.com/docs/firestore/quickstart#web-version-9
