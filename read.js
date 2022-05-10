@@ -53,6 +53,9 @@ for(let i = 0; i < LocationID.length; i++) {
   let comment;
   let rate;
   let name;
+  let street;
+  let state;
+  let postal;
   let picture;
   
   const r = query(collection(db, "review"), where("ID", "==", LocationID[i]));
@@ -64,6 +67,9 @@ for(let i = 0; i < LocationID.length; i++) {
       comment = doc.data().comment;
       rate = doc.data().rate;
       name = doc.data().name;
+      street = doc.data().street;
+      state = doc.data().name;
+      postal = doc.data().postal;
       picture = doc.id;
       ReviewID= picture
   
