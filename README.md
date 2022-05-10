@@ -12,9 +12,9 @@ Our Firestore database' main use is to store reviews for bathrooms. Within each 
   <li> postal: the postal code of the address associated with the review </li>
 </ul>
 
-Depending on the language you are using for your project, the way you need to implement this feature changes. Google supports 16 different processes to implement firebase. This repository has 3 example "project" files which showcase how to read from the database in each language. The first of which is taken directly from our project with minor changes to improve documentation. The remaining project is basic code are taken from the google firestore tutorial showcasing how to implement in unity (link to official tutorial at bottom). 
+Depending on the language you are using for your project, the way you need to implement this feature changes. Google supports 16 different processes to implement firebase. This repository has one example "project" file which showcases how to read from the database in web dev (javascript). For languages other than javascript, modification is needed on a per-language basis (by the Flushy group) to allow you to read from the database. This read.js file is taken directly from our project with minor changes to improve documentation. (link to official tutorial at bottom). 
 
-Aside from these three project files, the proper firebase authentification configuration for web development will be sent in the discord in the "FirestoreAPI" channel.
+Aside from this project file, the proper firebase authentification configuration for web development will be sent in the discord in the "FirestoreAPI" channel.
 
 # General Idea
 <ol>
