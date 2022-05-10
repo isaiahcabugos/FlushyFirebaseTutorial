@@ -26,7 +26,7 @@ Aside from these three project files, the proper firebase authentification confi
 <h1> Important Notes </h1>
 Please be aware we have only implemented Firebase in web form, meaning we may not have all the answers if questions arise for your specific project's language. Furthermore, we only have a limited amount of bandwidth available each day. Thus far, our group by itself has yet to reach anywhere near that limit. However, with 7 groups that may easily change. Specifically, Google allows 50K reads per day. With this in mind, it would be most beneficial for everyone if groups kept great care in where and how they implement interactions with the database. In other words, be wary when calling the database in loops or otherwise cyclical/indirect fashion. A simple bug may overload the bandwidth for that day. 
 
-Also be aware that if you want to add Firebase integration to your project, you will likely need to contact us so we can add extra settings to our firebase console to make your project usable with google firebase.
+Also be aware that if you want to add Firebase integration to your project and you are not developing some sort of website, you will likely need to contact us so we can add extra settings to our firebase console to make your project usable with google firebase.
 
 # Official Google Tutorial
 Link: https://firebase.google.com/docs/firestore/quickstart#web-version-9
